@@ -51,6 +51,12 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="rel-34"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="rel-34"/>
     </Combination>
+    <Combination name="rel-34-updates" description="The main branch">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="rel-34-edk2-stable202111-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="rel-34-upstream-20210901-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="rel-34-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="rel-34-updates"/>
+    </Combination>
   </CombinationList>
 
   <DscList>
