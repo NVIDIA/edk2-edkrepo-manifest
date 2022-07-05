@@ -31,6 +31,7 @@
     <!-- The 'name' attribute for each Remote tag must be unique. -->
     <Remote name="Edk2Repo">https://github.com/NVIDIA/edk2.git</Remote>
     <Remote name="Edk2PlatformsRepo">https://github.com/NVIDIA/edk2-platforms.git</Remote>
+    <Remote name="Edk2NonOsiRepo">https://github.com/tianocore/edk2-non-osi.git</Remote>
     <Remote name="Edk2NvidiaRepo">https://github.com/NVIDIA/edk2-nvidia.git</Remote>
     <Remote name="Edk2NvidiaNonOsiRepo">https://github.com/NVIDIA/edk2-nvidia-non-osi.git</Remote>
   </RemoteList>
@@ -45,6 +46,13 @@
   </SubmoduleAlternateRemotes>
 
   <CombinationList>
+    <Combination name="main" description="The main branch">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202205" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="master"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20220228" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="main"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="main"/>
+    </Combination>
     <Combination name="rel-34" description="The main branch">
       <Source localRoot="edk2" remote="Edk2Repo" branch="rel-34-edk2-stable202111" enableSubmodule="true" />
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="rel-34-upstream-20210901" sparseCheckout="true" />
