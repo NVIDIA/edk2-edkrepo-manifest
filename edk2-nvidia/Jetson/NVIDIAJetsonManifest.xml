@@ -47,9 +47,9 @@
 
   <CombinationList>
     <Combination name="main" description="The main codeline">
-      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202205" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20220404"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20220228" sparseCheckout="true" />
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202208" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20220830"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20220830" sparseCheckout="true" />
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="main"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="main"/>
     </Combination>
