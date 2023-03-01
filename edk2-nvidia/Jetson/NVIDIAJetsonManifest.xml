@@ -34,6 +34,7 @@
     <Remote name="Edk2NonOsiRepo">https://github.com/NVIDIA/edk2-non-osi.git</Remote>
     <Remote name="Edk2NvidiaRepo">https://github.com/NVIDIA/edk2-nvidia.git</Remote>
     <Remote name="Edk2NvidiaNonOsiRepo">https://github.com/NVIDIA/edk2-nvidia-non-osi.git</Remote>
+    <Remote name="OpenRmRepo">https://github.com/NVIDIA/open-gpu-kernel-modules.git</Remote>
   </RemoteList>
 
   <ClientGitHookList>
@@ -52,6 +53,7 @@
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20220830" sparseCheckout="true" />
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="main"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="main"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
 
     <!-- rel-34 -->
