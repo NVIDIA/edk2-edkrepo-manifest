@@ -1,4 +1,5 @@
 <ProjectList>
   <!-- Fhe 'xmlPath' values should be relative to this file (CiIndex.xml) -->
   <Project name="NVIDIA-Jetson" xmlPath="edk2-nvidia/Jetson/NVIDIAJetsonManifest.xml" />
+  <Project name="NVIDIA-Platforms" xmlPath="edk2-nvidia/Platform/NVIDIAPlatformsManifest.xml" />
 </ProjectList>

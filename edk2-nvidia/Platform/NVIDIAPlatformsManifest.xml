@@ -1,7 +1,7 @@
 <Manifest>
   <ProjectInfo>
-    <CodeName>NVIDIA-Jetson</CodeName>
-    <Description>NVIDIA Jetson Platform</Description>
+    <CodeName>NVIDIA-Platforms</CodeName>
+    <Description>NVIDIA Platforms</Description>
     <DevLead>jbrasen@nvidia.com</DevLead>
     <LeadReviewers>
       <Reviewer>jbrasen@nvidia.com</Reviewer>
@@ -10,9 +10,9 @@
   </ProjectInfo>
 
   <GeneralConfig>
-    <PinPath>edk2-platforms/NVIDIA-Jetson/pins</PinPath>
-    <DefaultCombo combination="master" />
-    <CurrentClonedCombo combination="master" />
+    <PinPath>edk2-nvidia/Platform/pins</PinPath>
+    <DefaultCombo combination="main" />
+    <CurrentClonedCombo combination="main" />
   </GeneralConfig>
 
   <SparseCheckout>
@@ -47,6 +47,14 @@
   </SubmoduleAlternateRemotes>
 
   <CombinationList>
+    <Combination name="main" description="The main codeline">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202302" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20230126"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20230322" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="main"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="main"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
 
     <!-- rel-34 -->
     <Combination name="rel-34" description="The rel-34 codeline">
