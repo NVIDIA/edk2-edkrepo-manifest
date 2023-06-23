@@ -120,12 +120,39 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.3.1-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.3.1-updates"/>
     </Combination>
-    <Combination name="uefi-202305" description="The uefi-202305 pre-release ">
+
+    <!-- uefi-202305, stable202305 -->
+    <Combination name="stable202305" description="The uefi-202305 stable codeline">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="stable202305" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="stable202305"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="stable202305" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="stable202305"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="stable202305"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
+    <!-- This should have been tagged as "uefi-202305.0" -->
+    <Combination name="uefi-202305" description="The uefi-202305 pre-release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202305" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202305"/>
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202305" sparseCheckout="true" />
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202305"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202305"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
+    <Combination name="uefi-202305.1" description="The uefi-202305.1 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202305.1" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202305.1"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202305.1" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202305.1"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202305.1"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
+    <Combination name="uefi-202305.1-updates" description="The uefi-202305.1 release, pluse updates">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="uefi-202305.1-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="uefi-202305.1-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="uefi-202305.1-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="uefi-202305.1-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="uefi-202305.1-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
   </CombinationList>
