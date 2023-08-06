@@ -121,6 +121,15 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.3.1-updates"/>
     </Combination>
 
+    <!-- uefi-202210, stable202210 -->
+    <Combination name="stable202210" description="The uefi-202210 stable codeline">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="stable202210" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="stable202210"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="stable202210" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="stable202210"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="stable202210"/>
+    </Combination>
+
     <!-- uefi-202305, stable202305 -->
     <Combination name="stable202305" description="The uefi-202305 stable codeline">
       <Source localRoot="edk2" remote="Edk2Repo" branch="stable202305" enableSubmodule="true" />
