@@ -144,6 +144,7 @@
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.2" sparseCheckout="true" />
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.2"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.2"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
     <Combination name="r36.2-updates" description="The r36.2 developer preview, plus updates">
       <Source localRoot="edk2" remote="Edk2Repo" tag="r36.2-updates" enableSubmodule="true" />
@@ -151,6 +152,7 @@
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.2-updates" sparseCheckout="true" />
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.2-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.2-updates"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
 
     <!-- uefi-202210, stable202210 -->
