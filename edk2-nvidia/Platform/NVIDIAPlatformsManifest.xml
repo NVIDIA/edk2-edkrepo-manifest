@@ -136,6 +136,20 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.4.1-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.4.1-updates"/>
     </Combination>
+    <Combination name="r35.5.0" description="The r35.5.0 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.5.0-edk2-stable202208" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.5.0-upstream-20220830"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.5.0-upstream-20220830" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.5.0"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.5.0"/>
+    </Combination>
+    <Combination name="r35.5.0-updates" description="The r35.5.0 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.5.0-edk2-stable202208-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.5.0-upstream-20220830"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.5.0-upstream-20220830-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.5.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.5.0-updates"/>
+    </Combination>
 
     <!-- rel-36 -->
     <Combination name="r36.2" description="The r36.2 developer preview">
@@ -169,6 +183,13 @@
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202210.3" sparseCheckout="true" />
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202210.3"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202210.3"/>
+    </Combination>
+    <Combination name="uefi-202210.4" description="The uefi-202210.4 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202210.4" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202210.4"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202210.4" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202210.4"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202210.4"/>
     </Combination>
 
     <!-- uefi-202305, stable202305 -->
