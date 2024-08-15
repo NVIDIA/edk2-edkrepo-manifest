@@ -31,6 +31,7 @@
     <!-- The 'name' attribute for each Remote tag must be unique. -->
     <Remote name="Edk2Repo">https://github.com/NVIDIA/edk2.git</Remote>
     <Remote name="Edk2PlatformsRepo">https://github.com/NVIDIA/edk2-platforms.git</Remote>
+    <Remote name="Edk2InfineonRepo">https://github.com/NVIDIA/edk2-infineon.git</Remote>
     <Remote name="Edk2RedfishClientRepo">https://github.com/NVIDIA/edk2-redfish-client.git</Remote>
     <Remote name="Edk2NonOsiRepo">https://github.com/NVIDIA/edk2-non-osi.git</Remote>
     <Remote name="Edk2NvidiaRepo">https://github.com/NVIDIA/edk2-nvidia.git</Remote>
@@ -49,13 +50,13 @@
 
   <CombinationList>
     <Combination name="main" description="The main codeline">
-      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202311" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20230811"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20231103" sparseCheckout="true" />
-      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="main-upstream-20231214"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202405" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20240615"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20240708" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="main-v02.01.3610.00"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="main-upstream-20240617"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="main"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="main"/>
-      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
 
     <!-- rel-34 -->
@@ -517,6 +518,26 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="uefi-202406.0-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="uefi-202406.0-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
+
+    <!-- uefi-202408 -->
+    <Combination name="uefi-202408.0" description="The uefi-202408.0 pre-release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202408.0" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202408.0"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202408.0" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" tag="uefi-202408.0"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202408.0"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202408.0"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202408.0"/>
+    </Combination>
+    <Combination name="uefi-202408.0-updates" description="The uefi-202408.0 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="uefi-202408.0-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="uefi-202408.0-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="uefi-202408.0-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="uefi-202408.0-updates"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="uefi-202408.0-updates"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="uefi-202408.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="uefi-202408.0-updates"/>
     </Combination>
 
   </CombinationList>
