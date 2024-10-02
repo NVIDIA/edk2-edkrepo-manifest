@@ -199,6 +199,22 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.3.0-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
+    <Combination name="r36.4.0" description="The r36.4.0 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.0" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.0"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.0" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.4.0"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.0"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
+    <Combination name="r36.4.0-updates" description="The r36.4.0 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.0-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.0-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.0-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.4.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.0-updates"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
 
     <!-- uefi-202210, stable202210 -->
     <Combination name="stable202210" description="The uefi-202210 stable codeline">
@@ -502,6 +518,15 @@
     </Combination>
 
     <!-- uefi-202405 -->
+    <Combination name="stable202405" description="The uefi-202405 stable codeline">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="stable202405" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="stable202405"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="stable202405" sparseCheckout="true" />
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="stable202405"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="stable202405"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="stable202405"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
     <Combination name="uefi-202405.0" description="The uefi-202405.0 pre-release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202405.0" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202405.0"/>
@@ -518,6 +543,15 @@
       <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="uefi-202405.0-updates"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="uefi-202405.0-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="uefi-202405.0-updates"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
+    <Combination name="uefi-202405.1" description="The uefi-202405.1 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202405.1" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202405.1"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202405.1" sparseCheckout="true" />
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202405.1"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202405.1"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202405.1"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
 
