@@ -203,6 +203,7 @@
       <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.0" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.0" sparseCheckout="true" />
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r36.4.0"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
@@ -211,6 +212,7 @@
       <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.0-updates" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.0-updates"/>
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.0-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r36.4.0-updates"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.4.0-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.0-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
