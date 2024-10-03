@@ -103,11 +103,11 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.2.1"/>
     </Combination>
     <Combination name="r35.2.1-updates" description="The r35.2.1 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.2.1-edk2-stable202208-updates" enableSubmodule="true" />
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r35.2.1-edk2-stable202208-updates" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.2.1-upstream-20220830"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.2.1-upstream-20220830-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.2.1-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.2.1-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r35.2.1-upstream-20220830-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.2.1-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.2.1-updates"/>
     </Combination>
     <Combination name="r35.3.1" description="The r35.3.1 release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="r35.3.1-edk2-stable202208" enableSubmodule="true" />
@@ -117,11 +117,11 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.3.1"/>
     </Combination>
     <Combination name="r35.3.1-updates" description="The r35.3.1 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.3.1-edk2-stable202208-updates" enableSubmodule="true" />
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r35.3.1-edk2-stable202208-updates" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.3.1-upstream-20220830"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.3.1-upstream-20220830-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.3.1-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.3.1-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r35.3.1-upstream-20220830-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.3.1-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.3.1-updates"/>
     </Combination>
     <Combination name="r35.4.1" description="The r35.4.1 release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="r35.4.1-edk2-stable202208" enableSubmodule="true" />
@@ -131,11 +131,11 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.4.1"/>
     </Combination>
     <Combination name="r35.4.1-updates" description="The r35.4.1 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.4.1-edk2-stable202208-updates" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.4.1-upstream-20220830"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.4.1-upstream-20220830-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.4.1-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.4.1-updates"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r35.4.1-edk2-stable202208-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r35.4.1-upstream-20220830-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r35.4.1-upstream-20220830-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.4.1-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.4.1-updates"/>
     </Combination>
     <Combination name="r35.5.0" description="The r35.5.0 release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="r35.5.0-edk2-stable202208" enableSubmodule="true" />
@@ -145,11 +145,11 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.5.0"/>
     </Combination>
     <Combination name="r35.5.0-updates" description="The r35.5.0 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.5.0-edk2-stable202208-updates" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.5.0-upstream-20220830"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.5.0-upstream-20220830-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.5.0-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.5.0-updates"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r35.5.0-edk2-stable202208-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r35.5.0-upstream-20220830-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r35.5.0-upstream-20220830-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.5.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.5.0-updates"/>
     </Combination>
     <Combination name="r35.6.0" description="The r35.6.0 release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="r35.6.0-edk2-stable202208" enableSubmodule="true" />
@@ -159,11 +159,11 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.6.0"/>
     </Combination>
     <Combination name="r35.6.0-updates" description="The r35.6.0 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.6.0-edk2-stable202208-updates" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.6.0-upstream-20220830"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.6.0-upstream-20220830-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.6.0-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.6.0-updates"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r35.6.0-edk2-stable202208-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r35.6.0-upstream-20220830-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r35.6.0-upstream-20220830-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.6.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.6.0-updates"/>
     </Combination>
 
     <!-- rel-36 -->
@@ -176,11 +176,11 @@
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
     <Combination name="r36.2-updates" description="The r36.2 developer preview, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r36.2-updates" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.2-updates"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.2-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.2-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.2-updates"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r36.2-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r36.2-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r36.2-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r36.2-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r36.2-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
     <Combination name="r36.3.0" description="The r36.3.0 release">
@@ -192,29 +192,29 @@
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
     <Combination name="r36.3.0-updates" description="The r36.3.0 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r36.3.0-updates" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.3.0-updates"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.3.0-updates" sparseCheckout="true" />
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.3.0-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.3.0-updates"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r36.3.0-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r36.3.0-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r36.3.0-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r36.3.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r36.3.0-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
     <Combination name="r36.4.0" description="The r36.4.0 release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.0" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.0" sparseCheckout="true" />
-      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r36.4.0"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.0"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
     <Combination name="r36.4.0-updates" description="The r36.4.0 release, plus updates">
-      <Source localRoot="edk2" remote="Edk2Repo" tag="r36.4.0-updates" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r36.4.0-updates"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r36.4.0-updates" sparseCheckout="true" />
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r36.4.0-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r36.4.0-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r36.4.0-updates" sparseCheckout="true" />
       <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r36.4.0-updates"/>
-      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r36.4.0-updates"/>
-      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r36.4.0-updates"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r36.4.0-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r36.4.0-updates"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
 
