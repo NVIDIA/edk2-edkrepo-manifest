@@ -46,6 +46,7 @@
   </CommitTemplates>
 
   <SubmoduleAlternateRemotes>
+    <SubmoduleAlternateRemote remote="Edk2Repo" originalUrl="https://github.com/Zeex/subhook.git">https://github.com/tianocore/edk2-subhook.git</SubmoduleAlternateRemote>
   </SubmoduleAlternateRemotes>
 
   <CombinationList>
