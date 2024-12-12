@@ -51,8 +51,8 @@
 
   <CombinationList>
     <Combination name="main" description="The main codeline">
-      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202405" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20240615"/>
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202408" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20241017"/>
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20240708" sparseCheckout="true" />
       <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="main-v02.01.3610.00"/>
       <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="main-upstream-20240617"/>
