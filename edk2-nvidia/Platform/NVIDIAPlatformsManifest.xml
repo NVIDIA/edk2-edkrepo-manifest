@@ -693,6 +693,24 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="uefi-202412.0-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="uefi-202412.0-updates"/>
     </Combination>
+    <Combination name="uefi-202412.1" description="The uefi-202412.1 pre-release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202412.1" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202412.1"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202412.1" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" tag="uefi-202412.1"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202412.1"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202412.1"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202412.1"/>
+    </Combination>
+    <Combination name="uefi-202412.1-updates" description="The uefi-202412.1 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="uefi-202412.1-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="uefi-202412.1-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="uefi-202412.1-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="uefi-202412.1-updates"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="uefi-202412.1-updates"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="uefi-202412.1-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="uefi-202412.1-updates"/>
+    </Combination>
 
   </CombinationList>
 
