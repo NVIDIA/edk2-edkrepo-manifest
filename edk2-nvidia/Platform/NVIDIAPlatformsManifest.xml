@@ -266,6 +266,13 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202210.5"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202210.5"/>
     </Combination>
+    <Combination name="uefi-202210.6" description="The uefi-202210.6 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202210.6" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202210.6"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202210.6" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202210.6"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202210.6"/>
+    </Combination>
 
     <!-- uefi-202305, stable202305 -->
     <Combination name="stable202305" description="The uefi-202305 stable codeline">
