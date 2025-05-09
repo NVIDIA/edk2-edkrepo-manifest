@@ -543,6 +543,15 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202402.2"/>
       <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
     </Combination>
+    <Combination name="uefi-202402.3" description="The uefi-202402.3 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202402.3" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202402.3"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202402.3" sparseCheckout="true" />
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202402.3"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202402.3"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202402.3"/>
+      <Source localRoot="edk2-nvidia-server-gpu-sdk/open-gpu-kernel-modules" remote="OpenRmRepo" tag="525.78.01"/>
+    </Combination>
 
     <!-- uefi-202403 -->
     <Combination name="uefi-202403.0" description="The uefi-202403.0 pre-release">
