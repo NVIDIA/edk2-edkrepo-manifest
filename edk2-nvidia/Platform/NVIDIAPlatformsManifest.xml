@@ -1042,6 +1042,16 @@
     </Combination>
 
     <!-- uefi-202504 -->
+    <Combination name="stable202504" description="The uefi-202504 stable codeline">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="stable202504" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="stable202504"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="stable202504" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="stable202504"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="stable202504"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="stable202504"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="stable202504"/>
+      <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
+    </Combination>
     <Combination name="uefi-202504.0" description="The uefi-202504.0 pre-release">
       <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202504.0" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202504.0"/>
