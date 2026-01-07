@@ -338,6 +338,26 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r38.2-updates"/>
       <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
     </Combination>
+    <Combination name="r38.4" description="The r38.4 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r38.4" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r38.4"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r38.4" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" tag="r38.4"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="r38.4"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r38.4"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r38.4"/>
+      <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
+    </Combination>
+    <Combination name="r38.4-updates" description="The r38.4 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r38.4-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r38.4-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r38.4-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="r38.4-updates"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r38.4-updates"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r38.4-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r38.4-updates"/>
+      <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
+    </Combination>
 
     <!-- uefi-202210, stable202210 -->
     <Combination name="stable202210" description="The uefi-202210 stable codeline">
@@ -1172,6 +1192,16 @@
       <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202506.2"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202506.2"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202506.2"/>
+      <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
+    </Combination>
+    <Combination name="uefi-202506.3" description="The uefi-202506.3 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202506.3" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202506.3"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202506.3" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" tag="uefi-202506.3"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202506.3"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202506.3"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202506.3"/>
       <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
     </Combination>
 
