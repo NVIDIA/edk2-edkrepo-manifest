@@ -210,6 +210,20 @@
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.6.3-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.6.3-updates"/>
     </Combination>
+    <Combination name="r35.6.4" description="The r35.6.4 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r35.6.4" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r35.6.4"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r35.6.4" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r35.6.4"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r35.6.4"/>
+    </Combination>
+    <Combination name="r35.6.4-updates" description="The r35.6.4 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r35.6.4-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r35.6.4-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r35.6.4-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r35.6.4-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r35.6.4-updates"/>
+    </Combination>
 
     <!-- rel-36 -->
     <Combination name="r36.2" description="The r36.2 developer preview">
