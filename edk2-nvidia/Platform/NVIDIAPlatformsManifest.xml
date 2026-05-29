@@ -52,7 +52,7 @@
 
   <CombinationList>
     <Combination name="main" description="The main codeline">
-      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202505" enableSubmodule="true" />
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202508" enableSubmodule="true" />
       <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20250815"/>
       <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20250826" sparseCheckout="true" />
       <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="main-v02.01.3610.00"/>
