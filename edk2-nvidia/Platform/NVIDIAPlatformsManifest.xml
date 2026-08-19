@@ -123,6 +123,16 @@
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202603.2"/>
       <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
     </Combination>
+    <Combination name="uefi-202603.3" description="The uefi-202603.3 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="uefi-202603.3" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="uefi-202603.3"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="uefi-202603.3" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" tag="uefi-202603.3"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="uefi-202603.3"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="uefi-202603.3"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="uefi-202603.3"/>
+      <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
+    </Combination>
 
     <!-- uefi-202605 -->
     <Combination name="uefi-202605.0" description="The uefi-202605.0 pre-release">
@@ -574,6 +584,24 @@
       <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r39.2-updates"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r39.2-updates"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r39.2-updates"/>
+    </Combination>
+    <Combination name="r39.2.1" description="The r39.2.1 release">
+      <Source localRoot="edk2" remote="Edk2Repo" tag="r39.2.1" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" tag="r39.2.1"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" tag="r39.2.1" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" tag="r39.2.1"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" tag="r39.2.1"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" tag="r39.2.1"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" tag="r39.2.1"/>
+    </Combination>
+    <Combination name="r39.2.1-updates" description="The r39.2.1 release, plus updates">
+      <Source localRoot="edk2" remote="Edk2Repo" branch="r39.2.1-updates" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="r39.2.1-updates"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="r39.2.1-updates" sparseCheckout="true" />
+      <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="r39.2.1-updates"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="r39.2.1-updates"/>
+      <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="r39.2.1-updates"/>
+      <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="r39.2.1-updates"/>
     </Combination>
 
     <!-- uefi-202210, stable202210 -->
