@@ -52,11 +52,11 @@
 
   <CombinationList>
     <Combination name="main" description="The main codeline">
-      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202508" enableSubmodule="true" />
-      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20250815"/>
-      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20250826" sparseCheckout="true" />
+      <Source localRoot="edk2" remote="Edk2Repo" branch="main-edk2-stable202511" enableSubmodule="true" />
+      <Source localRoot="edk2-non-osi" remote="Edk2NonOsiRepo" branch="main-upstream-20260525"/>
+      <Source localRoot="edk2-platforms" remote="Edk2PlatformsRepo" branch="main-upstream-20260422" sparseCheckout="true" />
       <Source localRoot="edk2-infineon" remote="Edk2InfineonRepo" branch="main-v02.01.3610.00"/>
-      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="main-upstream-20250823"/>
+      <Source localRoot="edk2-redfish-client" remote="Edk2RedfishClientRepo" branch="main-upstream-20260526"/>
       <Source localRoot="edk2-nvidia" remote="Edk2NvidiaRepo" branch="main"/>
       <Source localRoot="edk2-nvidia-non-osi" remote="Edk2NvidiaNonOsiRepo" branch="main"/>
       <Source localRoot="edk2-nvidia/Silicon/NVIDIA/Library/AvbLib/libavb" remote="AvbRepo" tag="android-platform-14.0.0_r5"/>
